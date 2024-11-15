@@ -1,7 +1,8 @@
 <script setup lang="ts">
+  import { Header } from "./layout";
 </script>
 
 <template>
-  <h1 class="text-green-600 text-4xl font-semibold text-center">Conduit</h1>
+  <Header />
   <router-view></router-view>
 </template>
